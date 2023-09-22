@@ -800,9 +800,7 @@ input[type="checkbox"] {
     margin-left: 2rem;
     margin-right: 1rem;
   }
-  .navbar {
-    padding: 0;
-  }
+
 }
 /* BUTTONS */
 
@@ -819,8 +817,7 @@ input[type="checkbox"] {
   width: 8rem;
   border-radius: 2rem;
 }
-
-.btn-container > .btn {
+.btn-container > a > .btn {
   width: 12rem;
 }
 /* buttons */

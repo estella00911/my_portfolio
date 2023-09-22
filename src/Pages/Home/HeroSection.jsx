@@ -1,3 +1,5 @@
+import pdf from "../../data/Resume_PinChunLU.pdf";
+
 export default function HeroSection() {
     return (
         <section id="heroSection" className="hero--section">
@@ -15,16 +17,16 @@ export default function HeroSection() {
                     </p>
                 </div>
                 <div className="hero--section--intro--container">
-                    <div class="btn-container">
-                        <button
-                            class="btn btn-color-2"
-                            onclick="window.open('./public/Resume_PinChunLU.pdf')"
-                        >
-                            Download CV
-                        </button>
-                        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-                            Contact Info
-                        </button>
+                    <div className="btn-container">
+                        <a href={pdf} target="_blank"
+                            rel="noreferrer">
+                            <button
+                                className="btn btn-color-2"
+                                onclick="window.open('./public/Resume_PinChunLU.pdf')"
+                            >
+                                Download CV
+                            </button>
+                        </a>
                     </div>
                     <div id="socials-container">
                         <a href="https://www.linkedin.com/in/pin-chun-lu-b4008a180/">
