@@ -23,19 +23,6 @@ function Footer() {
                 Home
               </Link>
             </li>
-            {/* <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="MyPortfolio"
-                className="text-md cursor--pointer"
-              >
-                Portfolio
-              </Link>
-            </li> */}
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -47,6 +34,19 @@ function Footer() {
                 className="text-md cursor--pointer"
               >
                 About Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Projects"
+                className="text-md cursor--pointer"
+              >
+                Projects
               </Link>
             </li>
             <li>

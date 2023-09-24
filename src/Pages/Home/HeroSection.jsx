@@ -21,7 +21,7 @@ export default function HeroSection() {
                         <a href={pdf} target="_blank"
                             rel="noreferrer">
                             <button
-                                className="btn btn-color-2"
+                                className="btn btn-color-2 btn-download"
                                 onclick="window.open('./public/Resume_PinChunLU.pdf')"
                             >
                                 Download CV

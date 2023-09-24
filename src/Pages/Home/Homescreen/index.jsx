@@ -10,14 +10,14 @@ import Footer from "../Footer";
 export default function Home() {
     return (
         <>
-        <HeroSection/>
-        {/* <MySkills/> */}
-        <AboutMe/>
-        {/* <Experiences/> */}
-        {/* <Projects/> */}
-        {/* <Testimonial /> */}
-        <ContactMe />
-        <Footer />
+            <HeroSection />
+            {/* <MySkills/> */}
+            <AboutMe />
+            {/* <Experiences/> */}
+            <Projects />
+            {/* <Testimonial /> */}
+            <ContactMe />
+            <Footer />
         </>
     )
 }

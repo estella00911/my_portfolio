@@ -89,6 +89,7 @@ function Navbar() {
               Experiences
             </Link>
           </li>
+           */}
           <li>
             <Link
               onClick={closeMenu}
@@ -102,7 +103,7 @@ function Navbar() {
             >
               Projects
             </Link>
-          </li> */}
+          </li>
         </ul>
       </div>
       <Link
