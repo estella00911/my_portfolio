@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.72143e3b.css",
-    "main.js": "/my_portfolio/static/js/main.398014c4.js",
+    "main.css": "/my_portfolio/static/css/main.4a75214d.css",
+    "main.js": "/my_portfolio/static/js/main.d2487930.js",
     "static/media/Resume_PinChunLU.pdf": "/my_portfolio/static/media/Resume_PinChunLU.be579403fc1062ac4b52.pdf",
     "index.html": "/my_portfolio/index.html",
-    "main.72143e3b.css.map": "/my_portfolio/static/css/main.72143e3b.css.map",
-    "main.398014c4.js.map": "/my_portfolio/static/js/main.398014c4.js.map"
+    "main.4a75214d.css.map": "/my_portfolio/static/css/main.4a75214d.css.map",
+    "main.d2487930.js.map": "/my_portfolio/static/js/main.d2487930.js.map"
   },
   "entrypoints": [
-    "static/css/main.72143e3b.css",
-    "static/js/main.398014c4.js"
+    "static/css/main.4a75214d.css",
+    "static/js/main.d2487930.js"
   ]
 }
