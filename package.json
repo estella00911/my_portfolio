@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://estella00911.github.io/my_portfolio",
   "engines": {
     "node": ">=12.x"
   },
