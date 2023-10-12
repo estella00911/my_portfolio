@@ -7,7 +7,6 @@
     "node": ">=12.x"
   },
   "dependencies": {
-    "gh-pages": "^6.0.0",
     "hash-router": "^0.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -19,7 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "browserslist": {
     "production": [
@@ -34,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "react-scripts": "^5.0.1",
     "webpack": "^5.74.0"
   }
