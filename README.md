@@ -21,3 +21,7 @@ $ git push origin -d gh-pages
 ```
 $ npm run deploy
 ```
+
+## Memo: 
+### update resume:
+The file path of the resume is: /src/data/Resume.pdf
